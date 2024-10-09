@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    margin: auto;
+    /* background-color: grey; */
+    width: 300px;
+    height: 80px;
+    margin-top:10%;
+    padding: 10px 10px;
+    border-radius: 50px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.toggle-switch{
+    position: relative;
+    background-color: red;
+    border: 5px solid white;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-top: 6px;
+    cursor: pointer;
+    transition: transform 0.4s linear, background-color 0.3s linear;
+
+}
+.state-text{
+    color: white;
+    position: absolute;
+    /* margin-left: 20px; */
+    margin-top: 16.5px;
+    font-size: 18px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.on{
+    background-color: green;
+    transform: translateX(230px);
+}
+
+.off{
+    background-color: red;
+    transform: translateX(0px);
+}
